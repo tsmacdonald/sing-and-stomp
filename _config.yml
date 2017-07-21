@@ -1,14 +1,18 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: The Midwest Sing & Stomp
+email: tsmacdonald@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The Midwest Sing & Stomp is a celebration of folk music and dance
+  featuring two stages with contra, square, blues, and cajun dancing and
+  traditional Irish, Scottish, old-time American, Swedish, and other music.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://singandstomp.com" # the base hostname & protocol for your site
+facebook_username: MWSingandStomp
+github_username:
+bootstrap:
+  assets: true
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-bootstrap-sass
