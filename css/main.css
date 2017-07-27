@@ -6272,7 +6272,8 @@ body {
   background-color: #E6E7E9;
   align-items: center;
   justify-content: center;
-  max-width: 941px; }
+  max-width: 941px;
+  margin: 0 auto; }
 
 .perk {
   flex: 1;
