@@ -24,3 +24,23 @@ body {
 .site-footer {
   border: none;
 }
+
+.perk-list {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #E6E7E9;
+  align-items: center;
+  justify-content: center;
+}
+
+.perk {
+  flex: 1;
+  align-self: flex-start;
+  font-style: italic;
+  margin: 25px;
+  min-width: 200px;
+  max-width: 200px;
+  .graphic-container {
+    background-color: #eee;
+  }
+}
