@@ -6254,7 +6254,8 @@ button.close {
     margin: auto; }
   .logo img.perk-logo {
     max-width: 200px;
-    margin: auto; }
+    margin: auto;
+    margin-bottom: 20px; }
 
 .tagline {
   font-size: 16pt;
@@ -6306,3 +6307,7 @@ h1 {
     width: 100%; }
   .donate-button table {
     margin-bottom: 10px; }
+
+.perk-container p {
+  max-width: 450px;
+  margin: 0 auto; }
