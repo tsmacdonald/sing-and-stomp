@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+      <div class="col-xs12 col-md-6">
+        <figure class="logo">
+          <img class="perk-logo" src="/img/logo.png" />
+        </figure>
+        <div>
+          {{ content }}
+        </div>
+      </div>
+      <div class="col-xs12 col-md-6 perk-image">
+        <img src={{page.image}} />
+      </div>
+
+  </body>
+
+</html>

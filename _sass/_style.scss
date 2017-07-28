@@ -6,10 +6,16 @@
     max-width: 400px;
     margin: auto;
   }
+  img.perk-logo {
+    max-width: 200px;
+    margin: auto;
+  }
 }
 
 .tagline {
   font-size: 16pt;
+  margin: 15px 0;
+  color: #be1d2c;
 }
 
 body {
@@ -45,4 +51,9 @@ body {
   .graphic-container {
     background-color: #eee;
   }
+}
+
+.perk-image {
+  background-color: #eee;
+  height: 100vh;
 }
