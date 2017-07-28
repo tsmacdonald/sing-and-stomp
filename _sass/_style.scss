@@ -19,7 +19,7 @@
 }
 
 body {
-  background-color: #FFDE17;
+  background-color: #F4D038;
   font-family: $base-font-family;
 }
 
@@ -56,4 +56,22 @@ body {
 .perk-image {
   background-color: #eee;
   height: 100vh;
+}
+
+h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.donate-button {
+  max-width: 400px;
+  margin: 40px auto 0;
+
+  .donate-image {
+    width: 100%;
+  }
+  table {
+    margin-bottom: 10px;
+  }
 }
