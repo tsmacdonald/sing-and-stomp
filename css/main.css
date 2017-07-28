@@ -6252,9 +6252,14 @@ button.close {
   .logo img {
     max-width: 400px;
     margin: auto; }
+  .logo img.perk-logo {
+    max-width: 200px;
+    margin: auto; }
 
 .tagline {
-  font-size: 16pt; }
+  font-size: 16pt;
+  margin: 15px 0;
+  color: #be1d2c; }
 
 body {
   background-color: #FFDE17;
@@ -6284,3 +6289,7 @@ body {
   max-width: 200px; }
   .perk .graphic-container {
     background-color: #eee; }
+
+.perk-image {
+  background-color: #eee;
+  height: 100vh; }
