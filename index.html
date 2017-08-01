@@ -14,12 +14,72 @@
   <link rel="canonical" href="http://localhost:4000/">
   <link rel="alternate" type="application/rss+xml" title="The Midwest Sing & Stomp" href="http://localhost:4000/feed.xml" />
   <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <script
+    src="http://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="/assets/javascripts/bootstrap.min.js"></script>
 </head>
 
 
   <body>
 
+    <nav class="pull-right navigation">
+      <ul>
+        <li>
+          <span class="nav-link" type="button" data-toggle="modal" data-target="#aboutModal">
+            About
+          </span>
+        </li>
+        <li>
+          <span class="nav-link" type="button" data-toggle="modal" data-target="#contactModal">
+            Contact
+          </span>
+        </li>
+      </ul>
+    </nav>
     <div class="container">
+      <div class="modal fade" tabindex="-1" role="dialog" id="aboutModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">About</h4>
+            </div>
+            <div class="modal-body">
+              <p>
+                The Midwest Sing &amp; Stomp is a day-long festival of traditional
+                folk music performances, workshops, and dancing from the Chicago
+                area. From 2pm to midnight experience non-stop traditional
+                programming on two stages: The Music Stage (upstairs) featuring
+                Irish, Scottish, Swedish, old time, and English music, the blues,
+                and more; and the Dance Hall (downstairs) hosting shapenote
+                singing, contra dancing, square dancing, and cajun two-stepping.
+              </p>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+      <div class="modal fade" tabindex="-1" role="dialog" id="contactModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Contact</h4>
+            </div>
+            <div class="modal-body">
+              <form action="https://formspree.io/tsmacdonald@gmail.com"
+                    method="POST">
+                  <input type="email" name="_replyto" class="form-control" placeholder="Your Email" />
+                  <textarea type="text" name="name" class="form-control" placeholder="Your Message"></textarea>
+                  <input type="submit" value="Send" class="btn" />
+                  <input type="hidden" name="_next" value="//" />
+              </form>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
         <figure class="logo">
   <img src="img/logo.png" />
 </figure>
@@ -28,6 +88,10 @@
   Help us fund the Midwest Sing &amp; Stomp
   <br>
   September 2 at the Beat Kitchen
+</div>
+
+<div class="video-player text-center">
+  <iframe width="640" height="360" src="//www.youtube.com/embed/4_FK-qvqjNs" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="perk-list">
