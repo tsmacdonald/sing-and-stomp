@@ -91,11 +91,15 @@ h1 {
 nav.navigation {
   text-transform: uppercase;
   color: #BE1E2D;
-  font-size: 20pt;
+  font-size: 16pt;
   margin-right: 2em;
   margin-top: 2em;
   font-weight: bold;
   letter-spacing: 4px;
+  @media only screen and (min-width: 700px) {
+    position: fixed;
+    right: 0;
+  }
   ul {
     list-style: none;
   }
