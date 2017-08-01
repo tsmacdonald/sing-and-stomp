@@ -6323,7 +6323,8 @@ nav.navigation {
   margin-right: 2em;
   margin-top: 2em;
   font-weight: bold;
-  letter-spacing: 4px; }
+  letter-spacing: 4px;
+  text-align: right; }
   @media only screen and (min-width: 700px) {
     nav.navigation {
       position: fixed;
