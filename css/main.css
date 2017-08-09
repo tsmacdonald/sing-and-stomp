@@ -6272,6 +6272,15 @@ body {
 .site-footer {
   border: none; }
 
+h2.lineup-title {
+  font-size: 16pt;
+  text-align: center; }
+
+p.lineup-description {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 3em; }
+
 .perk-list {
   display: flex;
   flex-wrap: wrap;
@@ -6311,7 +6320,12 @@ h1 {
   margin-top: 4em; }
   .perk-container p {
     max-width: 400px;
-    margin: 0 auto; }
+    margin: 5px auto 0; }
+  .perk-container ul {
+    margin-top: 5px;
+    max-width: 400px;
+    margin: 5px auto 0;
+    padding-left: 4em; }
 
 .video-player {
   margin-bottom: 2em; }
@@ -6330,6 +6344,8 @@ nav.navigation {
       right: 0; } }
   nav.navigation ul {
     list-style: none; }
+    nav.navigation ul li a {
+      color: #BE1E2D; }
 
 .text-content {
   max-width: 400px; }
