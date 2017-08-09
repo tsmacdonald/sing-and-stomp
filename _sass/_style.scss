@@ -32,6 +32,17 @@ body {
   border: none;
 }
 
+h2.lineup-title {
+  font-size: 16pt;
+  text-align: center;
+}
+
+p.lineup-description {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
 .perk-list {
   display: flex;
   flex-wrap: wrap;
@@ -80,7 +91,13 @@ h1 {
   margin-top: 4em;
   p {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 5px auto 0;
+  }
+  ul {
+    margin-top: 5px;
+    max-width: 400px;
+    margin: 5px auto 0;
+    padding-left: 4em;
   }
 }
 
@@ -102,7 +119,12 @@ nav.navigation {
   }
   ul {
     list-style: none;
+
+    li a {
+      color: #BE1E2D;
+    }
   }
+
 }
 
 .text-content {
