@@ -17,6 +17,9 @@
   font-size: 16pt;
   margin: 15px 0;
   color: #be1d2c;
+  h1 {
+    font-size: 20pt;
+  }
 }
 
 body {
@@ -147,5 +150,16 @@ h4 {
 .modal-body {
   .form-control {
     margin-bottom: 1em;
+  }
+}
+
+a {
+  color: #BE1E2D !important;
+  font-weight: bold;
+}
+
+.nav-link {
+  a {
+    font-weight: normal;
   }
 }
