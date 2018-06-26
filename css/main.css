@@ -6260,7 +6260,8 @@ button.close {
 .tagline {
   font-size: 16pt;
   margin: 15px 0;
-  color: #be1d2c; }
+  color: #be1d2c;
+  text-align: center; }
   .tagline h1 {
     font-size: 20pt; }
 
