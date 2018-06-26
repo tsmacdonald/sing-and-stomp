@@ -6247,11 +6247,6 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-.coming-soon {
-  width: 100%; }
-  .coming-soon img {
-    margin: auto; }
-
 .logo {
   width: 100%; }
   .logo img {
@@ -6266,6 +6261,8 @@ button.close {
   font-size: 16pt;
   margin: 15px 0;
   color: #be1d2c; }
+  .tagline h1 {
+    font-size: 20pt; }
 
 body {
   background-color: #F4D038;
@@ -6367,3 +6364,10 @@ h4 {
 
 .modal-body .form-control {
   margin-bottom: 1em; }
+
+a {
+  color: #BE1E2D !important;
+  font-weight: bold; }
+
+.nav-link a {
+  font-weight: normal; }
