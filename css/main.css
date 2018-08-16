@@ -6265,9 +6265,18 @@ button.close {
   .tagline h1 {
     font-size: 20pt; }
 
+.list-of-acts {
+  max-width: 600px;
+  margin: 0 auto; }
+
 body {
   background-color: #F4D038;
   font-family: Gill Sans, Lato, Helvetica, Arial, sans-serif; }
+
+.the-menu {
+  background-color: #F4D038; }
+  .the-menu ul {
+    padding: 0; }
 
 .social-icon {
   max-width: 64px; }
@@ -6277,12 +6286,28 @@ body {
 
 h2.lineup-title {
   font-size: 16pt;
-  text-align: center; }
+  text-align: center;
+  margin-top: 3em; }
+  h2.lineup-title .no-margin {
+    margin: 0; }
 
 p.lineup-description {
-  font-style: italic;
-  text-align: center;
-  margin-bottom: 3em; }
+  font-style: italic; }
+
+.lineup-buy-ticket img {
+  margin-top: 3em; }
+
+p {
+  font-size: 14pt;
+  max-width: 800px;
+  margin: 0 auto; }
+
+p.smallish {
+  font-size: 12pt;
+  margin: 1em; }
+
+.dcase-logo {
+  margin-top: 10px; }
 
 .perk-list {
   display: flex;
