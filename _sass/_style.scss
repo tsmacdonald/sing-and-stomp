@@ -23,9 +23,21 @@
   text-align: center;
 }
 
+.list-of-acts {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 body {
   background-color: #F4D038;
   font-family: $base-font-family;
+}
+
+.the-menu {
+  background-color: #F4D038;
+  ul {
+    padding: 0;
+  }
 }
 
 .social-icon {
@@ -39,12 +51,35 @@ body {
 h2.lineup-title {
   font-size: 16pt;
   text-align: center;
+  margin-top: 3em;
+  .no-margin {
+    margin: 0;
+  }
 }
 
 p.lineup-description {
   font-style: italic;
-  text-align: center;
-  margin-bottom: 3em;
+}
+
+.lineup-buy-ticket {
+  img {
+    margin-top: 3em;
+  }
+}
+
+p {
+  font-size: 14pt;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+p.smallish {
+  font-size: 12pt;
+  margin: 1em;
+}
+
+.dcase-logo {
+  margin-top: 10px;
 }
 
 .perk-list {
