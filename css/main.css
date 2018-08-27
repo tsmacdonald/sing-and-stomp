@@ -6404,3 +6404,8 @@ a {
 
 .the-date {
   font-size: 32px; }
+
+.fat-modal {
+  width: 95%; }
+  .fat-modal img {
+    vertical-align: top; }
